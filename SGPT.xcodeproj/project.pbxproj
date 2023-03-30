@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FBF883129D5E27A00AE6BB0 /* DeclarativeConnectKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0FBF883029D5E27A00AE6BB0 /* DeclarativeConnectKit */; };
+		0FCEE18829B20A0300C9691A /* SGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE18729B20A0300C9691A /* SGPTApp.swift */; };
+		0FCEE18A29B20A0300C9691A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE18929B20A0300C9691A /* ContentView.swift */; };
+		0FCEE18C29B20A0400C9691A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCEE18B29B20A0400C9691A /* Assets.xcassets */; };
+		0FCEE18F29B20A0400C9691A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FCEE18E29B20A0400C9691A /* Preview Assets.xcassets */; };
+		0FCEE19129B20A0400C9691A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE19029B20A0400C9691A /* Persistence.swift */; };
+		0FCEE19429B20A0400C9691A /* SGPT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE19229B20A0400C9691A /* SGPT.xcdatamodeld */; };
+		0FCEE19E29B20A0400C9691A /* SGPTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE19D29B20A0400C9691A /* SGPTTests.swift */; };
+		0FCEE1A829B20A0400C9691A /* SGPTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE1A729B20A0400C9691A /* SGPTUITests.swift */; };
+		0FCEE1AA29B20A0400C9691A /* SGPTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE1A929B20A0400C9691A /* SGPTUITestsLaunchTests.swift */; };
+		0FCEE1BC29B2137100C9691A /* JUNGIN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0FCEE1BB29B2137100C9691A /* JUNGIN.mp3 */; };
+		0FCEE1D729B22C2300C9691A /* GPT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE1D629B22C2300C9691A /* GPT.swift */; };
+		0FCEE1D929B22C7E00C9691A /* Whisper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FCEE1D829B22C7E00C9691A /* Whisper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FCEE19A29B20A0400C9691A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FCEE17C29B20A0200C9691A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FCEE18329B20A0300C9691A;
+			remoteInfo = SGPT;
+		};
+		0FCEE1A429B20A0400C9691A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FCEE17C29B20A0200C9691A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FCEE18329B20A0300C9691A;
+			remoteInfo = SGPT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FA732CA29B42DAC00CD3B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0FCEE18429B20A0300C9691A /* SGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCEE18729B20A0300C9691A /* SGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGPTApp.swift; sourceTree = "<group>"; };
+		0FCEE18929B20A0300C9691A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0FCEE18B29B20A0400C9691A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FCEE18E29B20A0400C9691A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FCEE19029B20A0400C9691A /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0FCEE19329B20A0400C9691A /* SGPT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SGPT.xcdatamodel; sourceTree = "<group>"; };
+		0FCEE19929B20A0400C9691A /* SGPTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCEE19D29B20A0400C9691A /* SGPTTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGPTTests.swift; sourceTree = "<group>"; };
+		0FCEE1A329B20A0400C9691A /* SGPTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SGPTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FCEE1A729B20A0400C9691A /* SGPTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGPTUITests.swift; sourceTree = "<group>"; };
+		0FCEE1A929B20A0400C9691A /* SGPTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGPTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FCEE1BB29B2137100C9691A /* JUNGIN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JUNGIN.mp3; sourceTree = "<group>"; };
+		0FCEE1D629B22C2300C9691A /* GPT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT.swift; sourceTree = "<group>"; };
+		0FCEE1D829B22C7E00C9691A /* Whisper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whisper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FCEE18129B20A0300C9691A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBF883129D5E27A00AE6BB0 /* DeclarativeConnectKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCEE19629B20A0400C9691A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCEE1A029B20A0400C9691A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FCEE17B29B20A0200C9691A = {
+			isa = PBXGroup;
+			children = (
+				0FCEE18629B20A0300C9691A /* SGPT */,
+				0FCEE19C29B20A0400C9691A /* SGPTTests */,
+				0FCEE1A629B20A0400C9691A /* SGPTUITests */,
+				0FCEE18529B20A0300C9691A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FCEE18529B20A0300C9691A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FCEE18429B20A0300C9691A /* SGPT.app */,
+				0FCEE19929B20A0400C9691A /* SGPTTests.xctest */,
+				0FCEE1A329B20A0400C9691A /* SGPTUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FCEE18629B20A0300C9691A /* SGPT */ = {
+			isa = PBXGroup;
+			children = (
+				0FA732CA29B42DAC00CD3B8B /* Info.plist */,
+				0FCEE18729B20A0300C9691A /* SGPTApp.swift */,
+				0FCEE18929B20A0300C9691A /* ContentView.swift */,
+				0FCEE18B29B20A0400C9691A /* Assets.xcassets */,
+				0FCEE19029B20A0400C9691A /* Persistence.swift */,
+				0FCEE1BB29B2137100C9691A /* JUNGIN.mp3 */,
+				0FCEE1D529B22C1A00C9691A /* ENtity */,
+				0FCEE19229B20A0400C9691A /* SGPT.xcdatamodeld */,
+				0FCEE18D29B20A0400C9691A /* Preview Content */,
+			);
+			path = SGPT;
+			sourceTree = "<group>";
+		};
+		0FCEE18D29B20A0400C9691A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0FCEE18E29B20A0400C9691A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0FCEE19C29B20A0400C9691A /* SGPTTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FCEE19D29B20A0400C9691A /* SGPTTests.swift */,
+			);
+			path = SGPTTests;
+			sourceTree = "<group>";
+		};
+		0FCEE1A629B20A0400C9691A /* SGPTUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FCEE1A729B20A0400C9691A /* SGPTUITests.swift */,
+				0FCEE1A929B20A0400C9691A /* SGPTUITestsLaunchTests.swift */,
+			);
+			path = SGPTUITests;
+			sourceTree = "<group>";
+		};
+		0FCEE1D529B22C1A00C9691A /* ENtity */ = {
+			isa = PBXGroup;
+			children = (
+				0FCEE1D629B22C2300C9691A /* GPT.swift */,
+				0FCEE1D829B22C7E00C9691A /* Whisper.swift */,
+			);
+			path = ENtity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FCEE18329B20A0300C9691A /* SGPT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCEE1AD29B20A0400C9691A /* Build configuration list for PBXNativeTarget "SGPT" */;
+			buildPhases = (
+				0FCEE18029B20A0300C9691A /* Sources */,
+				0FCEE18129B20A0300C9691A /* Frameworks */,
+				0FCEE18229B20A0300C9691A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SGPT;
+			packageProductDependencies = (
+				0FBF883029D5E27A00AE6BB0 /* DeclarativeConnectKit */,
+			);
+			productName = SGPT;
+			productReference = 0FCEE18429B20A0300C9691A /* SGPT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FCEE19829B20A0400C9691A /* SGPTTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCEE1B029B20A0400C9691A /* Build configuration list for PBXNativeTarget "SGPTTests" */;
+			buildPhases = (
+				0FCEE19529B20A0400C9691A /* Sources */,
+				0FCEE19629B20A0400C9691A /* Frameworks */,
+				0FCEE19729B20A0400C9691A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FCEE19B29B20A0400C9691A /* PBXTargetDependency */,
+			);
+			name = SGPTTests;
+			productName = SGPTTests;
+			productReference = 0FCEE19929B20A0400C9691A /* SGPTTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FCEE1A229B20A0400C9691A /* SGPTUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FCEE1B329B20A0400C9691A /* Build configuration list for PBXNativeTarget "SGPTUITests" */;
+			buildPhases = (
+				0FCEE19F29B20A0400C9691A /* Sources */,
+				0FCEE1A029B20A0400C9691A /* Frameworks */,
+				0FCEE1A129B20A0400C9691A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FCEE1A529B20A0400C9691A /* PBXTargetDependency */,
+			);
+			name = SGPTUITests;
+			productName = SGPTUITests;
+			productReference = 0FCEE1A329B20A0400C9691A /* SGPTUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FCEE17C29B20A0200C9691A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0FCEE18329B20A0300C9691A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0FCEE19829B20A0400C9691A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0FCEE18329B20A0300C9691A;
+					};
+					0FCEE1A229B20A0400C9691A = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0FCEE18329B20A0300C9691A;
+					};
+				};
+			};
+			buildConfigurationList = 0FCEE17F29B20A0200C9691A /* Build configuration list for PBXProject "SGPT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FCEE17B29B20A0200C9691A;
+			packageReferences = (
+				0FBF882F29D5E27A00AE6BB0 /* XCRemoteSwiftPackageReference "DeclarativeConnectKit" */,
+			);
+			productRefGroup = 0FCEE18529B20A0300C9691A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FCEE18329B20A0300C9691A /* SGPT */,
+				0FCEE19829B20A0400C9691A /* SGPTTests */,
+				0FCEE1A229B20A0400C9691A /* SGPTUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FCEE18229B20A0300C9691A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCEE1BC29B2137100C9691A /* JUNGIN.mp3 in Resources */,
+				0FCEE18F29B20A0400C9691A /* Preview Assets.xcassets in Resources */,
+				0FCEE18C29B20A0400C9691A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCEE19729B20A0400C9691A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCEE1A129B20A0400C9691A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FCEE18029B20A0300C9691A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCEE1D929B22C7E00C9691A /* Whisper.swift in Sources */,
+				0FCEE19129B20A0400C9691A /* Persistence.swift in Sources */,
+				0FCEE18A29B20A0300C9691A /* ContentView.swift in Sources */,
+				0FCEE18829B20A0300C9691A /* SGPTApp.swift in Sources */,
+				0FCEE1D729B22C2300C9691A /* GPT.swift in Sources */,
+				0FCEE19429B20A0400C9691A /* SGPT.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCEE19529B20A0400C9691A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCEE19E29B20A0400C9691A /* SGPTTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FCEE19F29B20A0400C9691A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FCEE1AA29B20A0400C9691A /* SGPTUITestsLaunchTests.swift in Sources */,
+				0FCEE1A829B20A0400C9691A /* SGPTUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FCEE19B29B20A0400C9691A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FCEE18329B20A0300C9691A /* SGPT */;
+			targetProxy = 0FCEE19A29B20A0400C9691A /* PBXContainerItemProxy */;
+		};
+		0FCEE1A529B20A0400C9691A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FCEE18329B20A0300C9691A /* SGPT */;
+			targetProxy = 0FCEE1A429B20A0400C9691A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FCEE1AB29B20A0400C9691A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FCEE1AC29B20A0400C9691A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FCEE1AE29B20A0400C9691A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YTF4N2AP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SGPT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcm.SGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FCEE1AF29B20A0400C9691A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SGPT/Preview Content\"";
+				DEVELOPMENT_TEAM = 5YTF4N2AP3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SGPT/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcm.SGPT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FCEE1B129B20A0400C9691A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YTF4N2AP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcm.SGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SGPT";
+			};
+			name = Debug;
+		};
+		0FCEE1B229B20A0400C9691A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YTF4N2AP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcm.SGPTTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SGPT.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SGPT";
+			};
+			name = Release;
+		};
+		0FCEE1B429B20A0400C9691A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YTF4N2AP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcm.SGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SGPT;
+			};
+			name = Debug;
+		};
+		0FCEE1B529B20A0400C9691A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5YTF4N2AP3;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bcm.SGPTUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SGPT;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FCEE17F29B20A0200C9691A /* Build configuration list for PBXProject "SGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCEE1AB29B20A0400C9691A /* Debug */,
+				0FCEE1AC29B20A0400C9691A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCEE1AD29B20A0400C9691A /* Build configuration list for PBXNativeTarget "SGPT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCEE1AE29B20A0400C9691A /* Debug */,
+				0FCEE1AF29B20A0400C9691A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCEE1B029B20A0400C9691A /* Build configuration list for PBXNativeTarget "SGPTTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCEE1B129B20A0400C9691A /* Debug */,
+				0FCEE1B229B20A0400C9691A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FCEE1B329B20A0400C9691A /* Build configuration list for PBXNativeTarget "SGPTUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FCEE1B429B20A0400C9691A /* Debug */,
+				0FCEE1B529B20A0400C9691A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0FBF882F29D5E27A00AE6BB0 /* XCRemoteSwiftPackageReference "DeclarativeConnectKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AidenJLee/DeclarativeConnectKit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FBF883029D5E27A00AE6BB0 /* DeclarativeConnectKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FBF882F29D5E27A00AE6BB0 /* XCRemoteSwiftPackageReference "DeclarativeConnectKit" */;
+			productName = DeclarativeConnectKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		0FCEE19229B20A0400C9691A /* SGPT.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FCEE19329B20A0400C9691A /* SGPT.xcdatamodel */,
+			);
+			currentVersion = 0FCEE19329B20A0400C9691A /* SGPT.xcdatamodel */;
+			path = SGPT.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0FCEE17C29B20A0200C9691A /* Project object */;
+}

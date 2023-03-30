@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "declarativeconnectkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/AidenJLee/DeclarativeConnectKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2265188876a36769612aa005092a777fb37842cf"
+      }
+    }
+  ],
+  "version" : 2
+}
